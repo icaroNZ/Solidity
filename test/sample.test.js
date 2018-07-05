@@ -11,11 +11,11 @@ class Person {
 }
 
 /* initialization for each it test */
-let person;
-beforeEach(() => {
-  person = new Person();
-});
 describe('Class Person', () => {
+  let person;
+  beforeEach(() => {
+    person = new Person();
+  });
   it('person can walk', () => {
     assert.equal(person.walk(), 'walk');
   });
