@@ -1,0 +1,12 @@
+Simple dapp application in Solidity to test the Ethereum blockchain
+
+#create application
+npm inst
+#install solidity compiler
+npm install --save solc 
+#compile the solidity code
+node compile.js
+#for windows users run from admin terminal
+npm install --global --production windows-build-tools
+#install ganache and web3
+npm install --save mocha ganache-cli web3@1.0.0-beta.26
