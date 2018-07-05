@@ -10,3 +10,5 @@ node compile.js
 npm install --global --production windows-build-tools
 #install ganache and web3
 npm install --save mocha ganache-cli web3@1.0.0-beta.26
+#install truffel-hdwallet-provider
+npm install --save truffle-hdwallet-provider
